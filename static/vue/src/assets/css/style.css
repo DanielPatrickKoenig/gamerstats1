@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "gameing-simulator";
+  src:  url("../fonts/gameing-simulator.eot?qhfh8m");
+  src:  url("../fonts/gameing-simulator.eot?qhfh8m#iefix") format(embedded-opentype'),
+    url("../fonts/gameing-simulator.ttf?qhfh8m") format('truetype'),
+    url("../fonts/gameing-simulator.woff?qhfh8m") format('woff'),
+    url("../fonts/gameing-simulator.svg?qhfh8m#gameing-simulator") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="gaming-sim"], [class*=" gaming-sim"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'gameing-simulator' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gaming-simabout:before {
+  content: "\e900";
+}
+.gaming-simgame:before {
+  content: "\e901";
+}
+.gaming-simgenre:before {
+  content: "\e902";
+}
+.gaming-simhelp:before {
+  content: "\e903";
+}
+.gaming-simoptions:before {
+  content: "\e904";
+}
+.gaming-simpublisher:before {
+  content: "\e905";
+}
+.gaming-simsystem:before {
+  content: "\e906";
+}
+
+li.genre{
+  background-image: url('../genre.svg')
+}
+li.system{
+  background-image: url('../system.svg')
+}
+li.publisher{
+  background-image: url('../publisher.svg')
+}
+li.game{
+  background-image: url('../game.svg')
+}
