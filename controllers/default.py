@@ -113,6 +113,8 @@ def update_data(req):
             output['ratings'][g] = udf[udf['Name'].isin([g])][['Critic_Score','User_Score']].mean().dropna().to_dict()
     else:
         output['subset']['Total'] = udf[['NA_Sales','EU_Sales','JP_Sales','Other_Sales']].sum().to_dict()
+        for o in output['subset']['Total']:
+            output['subset']['Total'][o] = round(output['subset']['Total'][o],2)
 
     output['sales'] = sales
 
