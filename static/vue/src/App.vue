@@ -233,7 +233,7 @@ $genreColor: #9e0039;
 $systemColor: #406618;
 $publisherColor: #0054a6;
 $gameColor: #8c6239;
-$bodyBackground: url('assets/bgImage.png');
+$bodyBackground: url('./assets/bgImage.png');
 $textColor: #ffffff;
 $uiBackground: rgba(222,243,226,.9);
 $chartTitleTextColor: #eeeeee;
